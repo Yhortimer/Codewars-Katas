@@ -10,10 +10,9 @@ function solution(str) {
     last = result.slice(-1);
     result.splice(-1);
     result.push(`${last}_`);
+    return result;
   } else {
-    returnresult = str.split(/(..)/g).filter((i) => i);
+    result = str.split(/(..)/g).filter((i) => i);
+    return result;
   }
-  console.log(result);
 }
-
-solution("abcdefg");
