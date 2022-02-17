@@ -7,6 +7,3 @@ function StringChallenge(str) {
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
 }
-
-// keep this function call here
-console.log(StringChallenge("hello world"));
